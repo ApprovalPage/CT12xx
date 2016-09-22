@@ -181,11 +181,11 @@ p.nominalBounds = new cjs.Rectangle(214,50.1,78,23);
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(119).call(this.frame_119).wait(1));
 
 	// clickthru
-	this.clickthrough_btn = new lib.CT1();
-	this.clickthrough_btn.setTransform(150,125,1.181,1.316,0,0,0,127,95);
-	new cjs.ButtonHelper(this.clickthrough_btn, 0, 1, 2, false, new lib.CT1(), 3);
+	this.clickthru_btn = new lib.CT1();
+	this.clickthru_btn.setTransform(150,125,1.181,1.316,0,0,0,127,95);
+	new cjs.ButtonHelper(this.clickthru_btn, 0, 1, 2, false, new lib.CT1(), 3);
 
-	this.timeline.addTween(cjs.Tween.get(this.clickthrough_btn).wait(120));
+	this.timeline.addTween(cjs.Tween.get(this.clickthru_btn).wait(120));
 
 	// Layer 5
 	this.instance = new lib.CTA();
