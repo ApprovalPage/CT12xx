@@ -19,7 +19,7 @@ lib.properties = {
 
 
 lib.ssMetadata = [
-		{name:"CT12xx_Details_300x250_atlas_NP_", frames: [[0,0,300,250],[0,252,300,250]]}
+		{name:"CT12xx_Details_300x250_atlas_NP_", frames: [[0,252,300,250],[0,0,300,250]]}
 ];
 
 
@@ -288,14 +288,14 @@ p.nominalBounds = new cjs.Rectangle(189,46.1,122,29);
 	this.instance_4._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(23).to({_off:false},0).to({regX:0.1,regY:0.1,scaleX:1.5,scaleY:1.5},3).to({_off:true,regX:0,regY:0,scaleX:1,scaleY:1},2).wait(198));
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(26).to({_off:false},2).wait(60).to({startPosition:0},0).wait(1).to({scaleX:1.38,scaleY:1.38,x:138.6,y:37.1},0).to({scaleX:1,scaleY:1,x:154.5,y:36.7},4).wait(133));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(26).to({_off:false},2).wait(64).to({startPosition:0},0).wait(1).to({scaleX:1.38,scaleY:1.38,x:138.6,y:37.1},0).to({scaleX:1,scaleY:1,x:154.5,y:36.7},4).wait(129));
 
 	// HEAD
 	this.instance_5 = new lib.HEAD();
 	this.instance_5.setTransform(324,125,1,1,0,0,0,150,125);
 	this.instance_5._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(47).to({_off:false},0).to({x:150},4).wait(38).to({scaleX:1.38,scaleY:1.38,x:132.5,y:159.1},0).to({scaleX:1,scaleY:1,x:150,y:125},4).wait(133));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(47).to({_off:false},0).to({x:150},4).wait(42).to({scaleX:1.38,scaleY:1.38,x:132.5,y:159.1},0).to({scaleX:1,scaleY:1,x:150,y:125},4).wait(129));
 
 	// phone
 	this.instance_6 = new lib.iPhone();
