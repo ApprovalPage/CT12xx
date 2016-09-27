@@ -276,7 +276,7 @@ p.nominalBounds = new cjs.Rectangle(189,46.1,122,29);
 	this.instance_2.setTransform(-310,385.1,5,5,0,0,0,150,125);
 	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(84).to({_off:false},0).to({scaleX:1,scaleY:1,x:150,y:125},5).wait(1).to({regX:149.9,regY:124.9,scaleX:2,scaleY:2,x:49.1,y:178.4},0).to({regX:150,regY:125,scaleX:1,scaleY:1,x:150,y:125},3).wait(133));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(84).to({_off:false},0).to({scaleX:1,scaleY:1,x:150,y:125},5).wait(1).to({regX:149.9,regY:124.9,scaleX:2,scaleY:2,x:49.1,y:192.4},0).to({regX:150,regY:125,scaleX:1,scaleY:1,x:150,y:125},4).wait(132));
 
 	// Free
 	this.instance_3 = new lib.Tween1("synched",0);
@@ -288,14 +288,14 @@ p.nominalBounds = new cjs.Rectangle(189,46.1,122,29);
 	this.instance_4._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(23).to({_off:false},0).to({regX:0.1,regY:0.1,scaleX:1.5,scaleY:1.5},3).to({_off:true,regX:0,regY:0,scaleX:1,scaleY:1},2).wait(198));
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(26).to({_off:false},2).wait(63).to({startPosition:0},0).wait(1).to({scaleX:1.38,scaleY:1.38,x:138.6,y:37.1},0).to({scaleX:1,scaleY:1,x:154.5,y:36.7},3).wait(131));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(26).to({_off:false},2).wait(60).to({startPosition:0},0).wait(1).to({scaleX:1.38,scaleY:1.38,x:138.6,y:37.1},0).to({scaleX:1,scaleY:1,x:154.5,y:36.7},4).wait(133));
 
 	// HEAD
 	this.instance_5 = new lib.HEAD();
 	this.instance_5.setTransform(324,125,1,1,0,0,0,150,125);
 	this.instance_5._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(47).to({_off:false},0).to({x:150},4).wait(40).to({scaleX:1.38,scaleY:1.38,x:132.5,y:159.1},0).to({scaleX:1,scaleY:1,x:150,y:125},3).wait(132));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(47).to({_off:false},0).to({x:150},4).wait(38).to({scaleX:1.38,scaleY:1.38,x:132.5,y:159.1},0).to({scaleX:1,scaleY:1,x:150,y:125},4).wait(133));
 
 	// phone
 	this.instance_6 = new lib.iPhone();
