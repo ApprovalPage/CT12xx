@@ -19,7 +19,7 @@ lib.properties = {
 
 
 lib.ssMetadata = [
-		{name:"CT12xx_Details_300x250_atlas_NP_", frames: [[0,252,300,250],[0,0,300,250]]}
+		{name:"CT12xx_Details_300x250_atlas_NP_", frames: [[0,0,300,250],[0,252,300,250]]}
 ];
 
 

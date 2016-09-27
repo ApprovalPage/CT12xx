@@ -239,7 +239,7 @@ p.nominalBounds = new cjs.Rectangle(177.8,5,64.2,23);
 		this.loopNum=1;
 		} else {
 		this.loopNum++;
-		if(this.loopNum==3){
+		if(this.loopNum==2){
 		this.stop();
 		}
 		}

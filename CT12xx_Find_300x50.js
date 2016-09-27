@@ -12,15 +12,13 @@ lib.properties = {
 	opacity: 1.00,
 	webfonts: {},
 	manifest: [
-		{src:"images/CT12xx_Find_300x50_atlas_P_.png", id:"CT12xx_Find_300x50_atlas_P_"}
+		{src:"images/EndFrameblkfind300x50.png", id:"EndFrameblkfind300x50"}
 	]
 };
 
 
 
-lib.ssMetadata = [
-		{name:"CT12xx_Find_300x50_atlas_P_", frames: [[0,0,300,50],[0,52,300,50]]}
-];
+lib.ssMetadata = [];
 
 
 lib.webfontAvailable = function(family) { 
@@ -34,18 +32,10 @@ lib.webfontAvailable = function(family) {
 
 
 
-(lib.EndFrameblkdetails300x50 = function() {
-	this.spriteSheet = ss["CT12xx_Find_300x50_atlas_P_"];
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
 (lib.EndFrameblkfind300x50 = function() {
-	this.spriteSheet = ss["CT12xx_Find_300x50_atlas_P_"];
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.EndFrameblkfind300x50);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,300,50);
 
 
 (lib.Tween2 = function(mode,startPosition,loop) {
@@ -130,7 +120,7 @@ p.nominalBounds = new cjs.Rectangle(71.5,23.1,138.5,26.9);
 	mask.setTransform(26.8,26.8);
 
 	// Layer 1
-	this.instance = new lib.EndFrameblkdetails300x50();
+	this.instance = new lib.EndFrameblkfind300x50();
 
 	this.instance.mask = mask;
 
@@ -249,7 +239,7 @@ p.nominalBounds = new cjs.Rectangle(164.1,4.3,68.4,24);
 		this.loopNum=1;
 		} else {
 		this.loopNum++;
-		if(this.loopNum==3){
+		if(this.loopNum==2){
 		this.stop();
 		}
 		}
